@@ -1,0 +1,46 @@
+{
+  "name": "@ianwalter/supports-date-input",
+  "version": "0.0.0",
+  "description": "Detect whether the current browser environment supports input[type=date]",
+  "main": "dist/supports-date-input.js",
+  "module": "dist/supports-date-input.m.js",
+  "scripts": {
+    "lint": "eslint index.js test.js",
+    "pretest": "dist",
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ianwalter/supports-date-input.git"
+  },
+  "keywords": [
+    "date",
+    "input",
+    "support",
+    "detection"
+  ],
+  "author": "Ian Walter <public@iankwalter.com> (https://iankwalter.com)",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/ianwalter/supports-date-input/issues"
+  },
+  "homepage": "https://github.com/ianwalter/supports-date-input#readme",
+  "devDependencies": {
+    "@ianwalter/dist": "^1.4.0",
+    "ava": "^1.1.0",
+    "eslint": "^5.9.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "np": "^3.1.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "extends": [
+      "eslint:recommended",
+      "standard"
+    ]
+  }
+}
