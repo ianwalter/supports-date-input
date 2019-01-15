@@ -1,6 +1,6 @@
 {
   "name": "@ianwalter/supports-date-input",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Detect whether the current browser environment supports input[type=date]",
   "main": "dist/supports-date-input.js",
   "module": "dist/supports-date-input.m.js",
