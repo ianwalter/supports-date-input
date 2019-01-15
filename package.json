@@ -25,6 +25,9 @@
     "url": "https://github.com/ianwalter/supports-date-input/issues"
   },
   "homepage": "https://github.com/ianwalter/supports-date-input#readme",
+  "files": [
+    "dist"
+  ],
   "devDependencies": {
     "@ianwalter/dist": "^1.4.0",
     "ava": "^1.1.0",
