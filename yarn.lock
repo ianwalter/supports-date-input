@@ -352,10 +352,10 @@
   dependencies:
     arrify "^1.0.1"
 
-"@ianwalter/dist@^2.0.0-1":
-  version "2.0.0-1"
-  resolved "https://registry.yarnpkg.com/@ianwalter/dist/-/dist-2.0.0-1.tgz#3212eeb7e4b7d45c7844d583960e631d060ffa4e"
-  integrity sha512-OyJJSgaYONrwhgZPQIf8lnQWh8yhkWd33+0IcxfBHT+NaAdtYcZCAkeGOP2gVdL6hNOXWUNQKZlfCx9JMu7ttQ==
+"@ianwalter/dist@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@ianwalter/dist/-/dist-2.0.0.tgz#21b663fbbd83b08aea9af6261f5a6dcd644de3ff"
+  integrity sha512-7BHuBfbTuLlfZDkTMvPzj1hOQem0c0Kij9vscVHPo09gpOx7w8eY/fgtWi0bfQdSBtR3BoS41QVtPFGMg0e3sA==
   dependencies:
     "@ianwalter/npm-short-name" "^1.0.0"
     "@ianwalter/promise-complete" "^3.0.1"
