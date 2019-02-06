@@ -30,6 +30,7 @@
   ],
   "devDependencies": {
     "@ianwalter/dist": "^1.5.1",
+    "@ianwalter/puppeteer-helper": "^2.1.0",
     "ava": "^1.2.1",
     "eslint": "^5.9.0",
     "eslint-config-standard": "^11.0.0",
