@@ -1,12 +1,16 @@
 {
   "name": "@ianwalter/supports-date-input",
   "version": "1.0.1",
-  "description": "Detect whether the current browser environment supports input[type=date]",
+  "description": "Detect whether a browser environment or user agent supports input[type=date]",
   "main": "dist/supports-date-input.js",
   "module": "dist/supports-date-input.m.js",
+  "iife": "dist/supports-date-input.iife.js",
+  "browser": "dist/supports-date-input.browser.js",
   "scripts": {
-    "lint": "eslint index.js test.js",
-    "pretest": "dist",
+    "lint": "eslint src test",
+    "nodejs": "dist -i src/node.js --no-iife --no-browser",
+    "browser": "dist -i src/browser.js --no-esm --no-cjs",
+    "pretest": "yarn nodejs && yarn browser",
     "test": "ava"
   },
   "repository": {
@@ -17,7 +21,11 @@
     "date",
     "input",
     "support",
-    "detection"
+    "detection",
+    "browser",
+    "useragent",
+    "user",
+    "agent"
   ],
   "author": "Ian Walter <public@iankwalter.com> (https://iankwalter.com)",
   "license": "SEE LICENSE IN LICENSE",
@@ -28,8 +36,12 @@
   "files": [
     "dist"
   ],
+  "dependencies": {
+    "bowser": "^2.1.0"
+  },
   "devDependencies": {
-    "@ianwalter/dist": "^1.5.1",
+    "@ianwalter/dist": "^2.0.0",
+    "@ianwalter/puppeteer-helper": "^2.1.0",
     "ava": "^1.2.1",
     "eslint": "^5.9.0",
     "eslint-config-standard": "^12.0.0",
@@ -44,6 +56,9 @@
     "extends": [
       "eslint:recommended",
       "standard"
-    ]
+    ],
+    "globals": {
+      "supportsDateInput": true
+    }
   }
 }

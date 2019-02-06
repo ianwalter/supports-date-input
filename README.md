@@ -1,11 +1,12 @@
 # @ianwalter/supports-date-input
-> Detect whether the current browser environment supports input[type=date]
+> Detect whether a browser environment or user agent string supports
+> input[type=date]
 
 [![npm page][npmImage]][npmUrl]
 
 ## About
 
-Code originates from [this StackOverflow answer][soUrl].
+Browser code originates from [this StackOverflow answer][soUrl].
 
 ## Installation
 
@@ -15,14 +16,28 @@ yarn add @ianwalter/supports-date-input
 
 ## Usage
 
+Browser:
+
 ```js
 import supportsDateInput from '@ianwalter/supports-date-input'
 
-// Firefox:
+// Firefox 65:
 supportsDateInput() // => true
 
 // Internet Explorer:
 supportsDateInput() // => false
+```
+
+Node.js:
+
+```js
+const supportsDateInput = require('@ianwalter/supports-date-input')
+
+// Firefox 65:
+supportsDateInput(req.get('user-agent')) // => true
+
+// Internet Explorer:
+supportsDateInput(req.get('user-agent')) // => false
 ```
 
 ## License
