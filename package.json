@@ -4,11 +4,10 @@
   "description": "Detect whether a browser environment or user agent supports input[type=date]",
   "main": "dist/supports-date-input.js",
   "module": "dist/supports-date-input.m.js",
-  "iife": "dist/supports-date-input.iife.js",
   "browser": "dist/supports-date-input.browser.js",
   "scripts": {
     "lint": "eslint src test",
-    "nodejs": "dist -i src/node.js --no-iife --no-browser",
+    "nodejs": "dist -i src/node.js --no-browser",
     "browser": "dist -i src/browser.js --no-esm --no-cjs",
     "pretest": "yarn nodejs && yarn browser",
     "test": "ava"
