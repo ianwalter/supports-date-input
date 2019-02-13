@@ -1,8 +1,8 @@
 import test from 'ava'
 import puppeteerHelper from '@ianwalter/puppeteer-helper'
 
-const withPage = puppeteerHelper(['./dist/supports-date-input.iife.js'])
+const withPage = puppeteerHelper()
 
-test(`returns true for Puppeteer's Chrome`, withPage, async (t, page) => {
-  t.true(await page.evaluate(() => supportsDateInput()))
+test(`returns true for Puppeteer's Chrome`, withPage, async t => {
+  t.true(await t.evaluate('./test/helpers/eval.js'))
 })
