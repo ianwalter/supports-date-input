@@ -39,7 +39,7 @@
     "bowser": "^2.1.0"
   },
   "devDependencies": {
-    "@ianwalter/dist": "^2.0.0",
+    "@ianwalter/dist": "^3.0.0",
     "@ianwalter/puppeteer-helper": "^3.0.0",
     "ava": "^1.2.1",
     "eslint": "^5.9.0",
