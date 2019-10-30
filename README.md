@@ -3,6 +3,7 @@
 > input[type=date]
 
 [![npm page][npmImage]][npmUrl]
+[![CI][ciImage]][ciUrl]
 
 ## About
 
@@ -42,13 +43,15 @@ supportsDateInput(req.get('user-agent')) // => false
 
 ## License
 
-Apache 2.0 with Commons Clause - See [LICENSE][licenseUrl]
+Hippocratic License - See [LICENSE][licenseUrl]
 
 &nbsp;
 
-Created by [Ian Walter](https://iankwalter.com)
+Created by [Ian Walter](https://ianwalter.dev)
 
 [npmImage]: https://img.shields.io/npm/v/@ianwalter/supports-date-input.svg
 [npmUrl]: https://www.npmjs.com/package/@ianwalter/supports-date-input
+[ciImage]: https://github.com/ianwalter/supports-date-input/workflows/CI/badge.svg
+[ciUrl]: https://github.com/ianwalter/supports-date-input/actions
 [soUrl]: https://stackoverflow.com/a/10199306/894420
 [licenseUrl]: https://github.com/ianwalter/supports-date-input/blob/master/LICENSE
