@@ -39,7 +39,7 @@
     "dist"
   ],
   "dependencies": {
-    "bowser": "^2.1.0"
+    "bowser": "^2.7.0"
   },
   "devDependencies": {
     "@ianwalter/bff": "^7.0.0",
