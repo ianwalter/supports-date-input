@@ -49,6 +49,11 @@
     "@ianwalter/release": "^3.0.6",
     "@ianwalter/renovate-config": "^1.1.0"
   },
+  "bff": {
+    "plugins": [
+      "@ianwalter/bff-puppeteer"
+    ]
+  },
   "eslintConfig": {
     "root": true,
     "extends": [
