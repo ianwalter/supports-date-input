@@ -58,6 +58,9 @@
       "supportsDateInput": true
     }
   },
+  "eslintIgnore": [
+    "dist"
+  ],
   "renovate": {
     "extends": [
       "@ianwalter"
