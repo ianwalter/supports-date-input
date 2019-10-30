@@ -1027,10 +1027,10 @@ boolbase@~1.0.0:
   resolved "https://registry.yarnpkg.com/boolbase/-/boolbase-1.0.0.tgz#68dff5fbe60c51eb37725ea9e3ed310dcc1e776e"
   integrity sha1-aN/1++YMUes3cl6p4+0xDcwed24=
 
-bowser@^2.1.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/bowser/-/bowser-2.3.0.tgz#624798388d972ec9639eb877629bca8ffd415c60"
-  integrity sha512-qaw3ZkREeT6HfHxr7HAY/xUdJHiopfktBUrctrlaLImZZYW82mLvHd04Fg3Zp/mnbt+YrMfX7PImZIL+65h7FQ==
+bowser@^2.7.0:
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/bowser/-/bowser-2.7.0.tgz#96eab1fa07fab08c1ec4c75977a7c8ddf8e0fe1f"
+  integrity sha512-aIlMvstvu8x+34KEiOHD3AsBgdrzg6sxALYiukOWhFvGMbQI6TRP/iY0LMhUrHs56aD6P1G0Z7h45PUJaa5m9w==
 
 brace-expansion@^1.1.7:
   version "1.1.11"
