@@ -42,7 +42,7 @@
     "bowser": "^2.8.1"
   },
   "devDependencies": {
-    "@ianwalter/bff": "^9.1.0",
+    "@ianwalter/bff": "^9.2.0",
     "@ianwalter/bff-puppeteer": "^1.4.0",
     "@ianwalter/dist": "^3.0.0",
     "@ianwalter/eslint-config": "^4.0.0",
