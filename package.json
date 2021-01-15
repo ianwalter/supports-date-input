@@ -39,7 +39,7 @@
     "dist"
   ],
   "dependencies": {
-    "bowser": "^2.9.0"
+    "bowser": "^2.11.0"
   },
   "devDependencies": {
     "@ianwalter/bff-puppeteer": "^3.0.1",
