@@ -11,14 +11,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@master
       - name: Install
-        uses: ianwalter/puppeteer@3.0.0
+        uses: ianwalter/puppeteer@3.0.2
         with:
           args: yarn
       - name: Lint
-        uses: ianwalter/puppeteer@3.0.0
+        uses: ianwalter/puppeteer@3.0.2
         with:
           args: yarn lint
       - name: Test
-        uses: ianwalter/puppeteer@3.0.0
+        uses: ianwalter/puppeteer@3.0.2
         with:
           args: yarn test
