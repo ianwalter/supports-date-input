@@ -297,7 +297,7 @@
     execa "^3.4.0"
     strip "^3.0.0"
 
-"@ianwalter/dist@^3.0.0":
+"@ianwalter/dist@^3.1.0":
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/@ianwalter/dist/-/dist-3.1.0.tgz#8fe46c9980fa270f236db8ff7fbd89948e90b7d2"
   integrity sha512-YTL1jwVlth4vk/CbfxS1B/rA3KFTeHttzR/fWXcVF3Khp+61PyooZ/Z7kWAG4UWwkMqkSH6XHHHFxZhunyqIMA==
